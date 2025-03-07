@@ -1,0 +1,50 @@
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+}
+
+.about-content {
+  width: 50%;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #ff6600;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-title {
+  font-size: 26px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #ff6600;
+}
+
+.about-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.learn-more-btn {
+  background-color: #0b3a63;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.about-image img {
+  width: 400px;
+  border-radius: 10px;
+}

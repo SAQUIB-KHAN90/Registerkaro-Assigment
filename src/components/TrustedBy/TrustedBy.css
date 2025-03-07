@@ -1,0 +1,30 @@
+.trusted-by {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.trusted-by h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.logo-container img {
+  max-width: 120px; /* Adjust size */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-container img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}

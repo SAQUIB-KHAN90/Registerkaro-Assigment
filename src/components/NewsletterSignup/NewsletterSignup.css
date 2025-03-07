@@ -1,0 +1,45 @@
+.newsletter {
+  background: linear-gradient(to right, #f7931e, #0b3a63);
+  color: white;
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.newsletter h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.newsletter-form input {
+  padding: 12px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.newsletter-form button {
+  padding: 12px 20px;
+  background-color: orange;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.newsletter-features {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 14px;
+}

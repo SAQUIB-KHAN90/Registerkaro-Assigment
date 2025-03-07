@@ -1,0 +1,71 @@
+.app-download {
+  background-color: #0b3a63;
+  color: white;
+  padding: 60px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.app-download-content {
+  max-width: 50%;
+}
+
+.app-download-content h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.app-download-content p {
+  font-size: 16px;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.app-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.store-badge img {
+  width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.store-badge img:hover {
+  transform: scale(1.1);
+}
+
+/* 🔥 Mobile App Images */
+.app-download-images {
+  display: flex;
+  gap: 20px;
+}
+
+.mobile-image {
+  width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.mobile-image:hover {
+  transform: scale(1.05);
+}
+
+/* 🔥 Responsive Design */
+@media (max-width: 1024px) {
+  .app-download {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .app-download-content {
+    max-width: 100%;
+  }
+
+  .app-download-images {
+    justify-content: center;
+  }
+}

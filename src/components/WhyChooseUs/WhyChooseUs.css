@@ -1,0 +1,71 @@
+.why-choose-us {
+  text-align: center;
+  padding: 60px 10%;
+  background-color: #f8f9fa;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #ff6600;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* 🔥 FIX: Adjust the grid spacing */
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px; /* Increased gap for better alignment */
+  margin-top: 30px;
+}
+
+/* 🔥 FIX: Add pastel background colors with lighter tones */
+.benefit-card {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:nth-child(1) {
+  background-color: #fde7e7;
+} /* Lighter Pink */
+.benefit-card:nth-child(2) {
+  background-color: #e8f9e8;
+} /* Lighter Green */
+.benefit-card:nth-child(3) {
+  background-color: #e8eaf9;
+} /* Lighter Blue */
+.benefit-card:nth-child(4) {
+  background-color: #fff5e8;
+} /* Lighter Orange */
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow on hover */
+}
+
+/* 🔥 FIX: Properly center icons & reduce size */
+.icon {
+  font-size: 26px; /* Reduced size for better alignment */
+  color: #ff6600;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

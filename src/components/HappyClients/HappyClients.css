@@ -1,0 +1,39 @@
+.happy-clients {
+  text-align: center;
+  padding: 60px 10%;
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* 🔥 Center the image */
+.clients-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.clients-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 🔥 Show More Button */
+.show-more-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}

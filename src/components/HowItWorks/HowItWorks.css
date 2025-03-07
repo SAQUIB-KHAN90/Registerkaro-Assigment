@@ -1,0 +1,34 @@
+.how-it-works {
+    background-color: #f7931e; /* Orange background */
+    padding: 20px 10%;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .step p {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+  

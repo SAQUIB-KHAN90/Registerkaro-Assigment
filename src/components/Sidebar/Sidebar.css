@@ -1,0 +1,20 @@
+.sidebar {
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sidebar button {
+  padding: 12px 20px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  color: black;
+  margin-top: 12px;
+}

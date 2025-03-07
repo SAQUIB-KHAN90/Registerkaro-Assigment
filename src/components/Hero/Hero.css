@@ -1,0 +1,39 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+.hero-content {
+  width: 50%;
+}
+.hero-image img {
+  width: 550px;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+.stats span {
+  height: 150px;
+  width: 150px;
+}
+.cta {
+  background-color: rgb(37, 37, 128); /* Correcting color */
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.secondary {
+  background: transparent;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: black;
+}

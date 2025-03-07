@@ -1,0 +1,23 @@
+.top-bar {
+  width: 100vw; /* Ensures it takes full width */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #0b3a63;
+  color: white;
+  padding: 8px 5%; /* Adds spacing on left and right */
+  font-size: 14px;
+  box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.social-icons a {
+  color: white;
+  margin-left: 10px;
+  font-size: 16px;
+}
