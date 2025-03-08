@@ -2,7 +2,7 @@ import React from "react";
 import "./TrustedBy.css"; // Import CSS
 
 // Import company logos from assets folder
-import oracle from "../../assets/oracle.png";
+import oracle from "../../assets/Oracle.png";
 import morpheus from "../../assets/morpheus.png";
 import samsung from "../../assets/samsung.png";
 import monday from "../../assets/monday.png";
