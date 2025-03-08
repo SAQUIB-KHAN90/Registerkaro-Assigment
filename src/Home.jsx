@@ -5,7 +5,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import TopBar from "./components/Navbar/TopBar";
 import TrustedBy from "./components/TrustedBy/TrustedBy";
 import Services from "./components/Services/Services";
-import AboutUs from "./components/AboutUs/AboutUs.JSX";
+import AboutUs from "./components/AboutUs/AboutUs";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import VideoIntroduction from "./components/VideoIntroduction/VideoIntroduction";
 import HappyClients from "./components/HappyClients/HappyClients";
@@ -16,7 +16,7 @@ import FAQ from "./components/FAQSection/FAQSection";
 import AppDownload from "./components/AppDownload/AppDownload";
 import Statistics from "./components/Statistics/Statistics";
 import NewsletterSignup from "./components/NewsletterSignup/NewsletterSignup";
-import Footer from "./components/Footer/Footer.jsx";
+import Footer from "./components/Footer/Footer";
 
 const Home = () => {
   return (
